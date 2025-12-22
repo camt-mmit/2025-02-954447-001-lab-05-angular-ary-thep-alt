@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+a {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 3px 15px;
+  margin-right: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: rgba(3, 3, 37, 0.05);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: var(--app-surface-container-color);
+    font-weight: bold;
+  }
+}

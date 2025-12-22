@@ -3,8 +3,52 @@ a {
   text-decoration: none;
   border: 1px solid var(--app-primary-color);
   border-radius: 4px;
+  padding: 4px 12px;
+  display: inline-block;
+  font-weight: 500;
 }
 
 a.-st-active {
-  background-color: var(--app-surface-container-color);
+  background-color: #5c5cff;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* ระยะห่างระหว่างรูปกับตัวอักษร */
+  margin-top: 20px;
+}
+
+svg.angular-logo {
+  height: 40px; /* ลดขนาดรูปตาม Lab */
+  width: auto;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+nav {
+  justify-content: center; /* จัดเมนูให้อยู่กึ่งกลาง */
+  gap: 5px; /* ลดช่องว่างระหว่างปุ่ม */
+}
+
+a {
+  padding: 2px 8px; /* ลดขนาดปุ่มให้เล็กลงเท่าใน Lab */
+  font-size: 16px;
+
+  &.-st-active {
+    background-color: #3f51b5; /* สีน้ำเงินเข้มตามรูป */
+    border-color: #3f51b5;
+  }
 }

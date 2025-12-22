@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 6px 15px;
+  margin-right: 3px;
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: rgba(3, 3, 37, 0.05);
+  }
+}
